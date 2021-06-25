@@ -1,12 +1,16 @@
 ---
-title: "Course Project 2 (reproducible research module)"
+title: "Course Project 2 (reproducible research module): Analysis of the Impact on Population Health and the Economy due to storm related events"
 author: "Angel Nolasco Serrano"
 date: "23/6/2021"
 
 output:
   pdf_document: default
   html_document:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
     keep_md: yes
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
